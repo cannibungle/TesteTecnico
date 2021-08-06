@@ -1,0 +1,217 @@
+body{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: lighter;
+    letter-spacing: -1px;
+}
+.destaque{
+    color: #DF0209;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+#agendar{
+    background: #1CB72A ;
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+#agendar:hover{
+    background: #0f6917
+}
+
+/* Nav */
+.nav-link, .nav-link:hover, .nav-link:active, .nav-link:visited{
+    text-decoration: none;
+    color: #707070;
+}
+.nav span.top-text{
+    font-size: 12px;
+    padding-left: 7px;
+}
+
+/* Header */
+header span.central{
+    color: #727B7A;
+    font-size: 15px;
+}
+
+/* Section #capa */
+#capa .contato {
+    box-shadow: 0px 0px 5px #00000029;
+    z-index: 10;
+    width: auto;
+    font-size: 14px;
+}
+#capa .contato input{
+    font-size: 12px;
+}
+#capa .contato select{
+    font-size: 12px;
+}
+/* Section #conteudo-1 */
+#conteudo-1 p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+/* Section #conteudo-2 */
+#conteudo-2 h5{
+    font-size: 20px;
+}
+#conteudo-2 p{
+    font-size: 14px;
+}
+
+/* Section #conteudo-3 */
+#conteudo-3 p.subtitle{
+    font-size: 18px;
+    font-weight: 300;
+}
+#conteudo-3 p{
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#conteudo-3 button{
+    font-family: "Roboto";
+    font-size: 13px;
+    color: black;
+    border-color: #D5D5D5;
+}
+#conteudo-3 button:hover{
+    background: #9c9c9c;
+}
+
+/* Footer */
+footer button{
+    width: 270px;
+    height: 80px;;
+}
+div#encontre{
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+div#central{
+    font-size: 14px;
+    color: #727B7A;
+}
+footer p{
+    font-size: 24px;
+    line-height: 32px;
+}
+footer span{
+    font-size: 12px;
+    color: #707070;
+}
+
+
+/* Font Awesome icons */
+.fab {
+    padding: 10px;
+    font-size: 35px;
+    border-radius: 50%;
+    opacity: 0.8;
+  }  
+  .fab:hover {
+    opacity: 1;
+  }  
+  .fa-facebook, .fa-twitter, .fa-instagram {
+    background: #c5c5c5;
+    color: white;
+  }  
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .top-text {
+    display: none;
+  }
+  .bottom-text {
+    display: none;
+  }
+  .img-top-lg, .img-center-lg {
+    display: none;
+  }
+  .top-icon {
+    height: 25px;
+  }
+  #conteudo-1 div.thumbs{
+    display: none;
+  }
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .top-text {
+    display: none;
+  }
+  .bottom-text {
+    display: none;
+  }
+  .img-top-lg, .img-center-lg {
+    display: none;
+  }
+  #conteudo-1 div.thumbs{
+    display: none;
+  }
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .top-text {
+    display: none;
+  }
+  .bottom-text {
+    display: none;
+  }
+  .img-top-sm, .img-center-sm {
+    display: none;
+  }
+}
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .contato {
+    position: fixed;
+    top: 194px;
+    width: 270px;
+  }
+  .img-top-sm, .img-center-sm {
+    display: none;
+  }
+}
+
+/*`xxl` applies to x-large devices (large desktops, less than 1400px)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .contato {
+    position: fixed;
+    left: 925px;
+    top: 194px;
+    width: 270px;
+  }
+  .img-top-sm, .img-center-sm {
+    display: none;
+  }
+}
+
+/* above 1400px */
+@media (min-width: 1400px) {
+  .contato {
+    position: fixed;
+    left: 1256px;
+    top: 194px;
+    width: 270px;
+  }
+  .img-top-sm, .img-center-sm {
+    display: none;
+  }
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("Fonts/Roboto.woff");
+}
+@font-face {
+    font-family: "SegoeUI";
+    src: url("Fonts/SegoeUI.woff");
+}
